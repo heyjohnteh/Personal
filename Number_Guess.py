@@ -6,7 +6,6 @@ number = random.randint(0 , 100)
 #prompt user for input
 guess = eval(input("guess a number between 0 and 100: "))
 
-
 #setting feedback for different guesses
 while True:
     if number == guess:
